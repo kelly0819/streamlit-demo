@@ -92,7 +92,6 @@ def main():
 
     # 사용자 질문 입력
     user_question = st.text_input(
-        "PDF 문서에 대해서 질문해 주세요",
         placeholder="무순위 청약 시에도 부부 중복신청이 가능한가요?"
     )
 
