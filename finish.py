@@ -92,8 +92,9 @@ def main():
 
     # 사용자 질문 입력
     user_question = st.text_input(
-        placeholder="무순위 청약 시에도 부부 중복신청이 가능한가요?"
-    )
+    label="질문 입력",  # 여기 필수
+    placeholder="무순위 청약 시에도 부부 중복신청이 가능한가요?"
+) 
 
     if user_question:
         response, context = process_question(user_question)
